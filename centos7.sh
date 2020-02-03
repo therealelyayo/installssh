@@ -1,8 +1,8 @@
 #!/bin/bash
 
-sudo yum –y install openssh-server openssh-clients
-sudo systemctl start sshd
-sudo systemctl status sshd
+yum –y install openssh-server openssh-clients
+systemctl start sshd
+systemctl status sshd
 #
 # All done
 #
